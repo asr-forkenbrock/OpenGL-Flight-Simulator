@@ -17,18 +17,17 @@ A real-time 3D flight simulation engine written in modern C++ utilizing hardware
 ## Directory Structure
 
 ```
-├── models/                  # Binary .stl 3D aircraft models (e.g., A350, 747)
-├── textures/                # Asset textures (ground, skybox, elements)
-├── src/
-│   ├── main.cpp             # Simulation entry point
-│   ├── Simulation.h/.cpp    # Physics loop and main simulation manager
-│   ├── Sim_Setup.cpp        # 3D assets loading and simulator initialization
-│   ├── Shaders.h/.cpp       # Core OpenGL shader sources and compiled shader programs
-│   ├── HUD.cpp              # UI logic and cockpit HUD interface management
-│   ├── graphic_tools_2d.cpp # Dedicated 2D batch renderer and UI primitives
-│   ├── game_config.h/.cpp   # Static environment configuration & aircraft context metadata
-│   └── bitmap_font.h        # Raw bitmap font definitions for the custom UI
-└── README.md                # Project documentation
+├── models/              # Binary .stl 3D aircraft models (e.g., A350, 747)
+├── textures/            # Asset textures (ground, skybox, elements)
+├── main.cpp             # Simulation entry point
+├── Simulation.h/.cpp    # Physics loop and main simulation manager
+├── Sim_Setup.cpp        # 3D assets loading and simulator initialization
+├── Shaders.h/.cpp       # Core OpenGL shader sources and compiled shader programs
+├── HUD.cpp              # UI logic and cockpit HUD interface management
+├── graphic_tools_2d.cpp # Dedicated 2D batch renderer and UI primitives
+├── game_config.h/.cpp   # Static environment configuration & aircraft context metadata
+├── bitmap_font.h        # Raw bitmap font definitions for the custom UI
+└── README.md            # Project documentation
 ```
 
 ## Prerequisites & Environment Layout
@@ -86,7 +85,6 @@ sudo apt-get install libglew-dev libglfw3-dev libglm-dev
 - Procedurally distributed structures can occasionally overlap directly onto active runway pathways.
 - six level inheritance
 - no shader compile checks
-
 
 
 
